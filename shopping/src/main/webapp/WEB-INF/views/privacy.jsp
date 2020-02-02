@@ -163,70 +163,91 @@
 			</div>
 		</div>
 	</div>
-	<div class="row" style="padding-top: 25px; padding-bottom: 25px;">
-		<div class="col-sm-10 col-md-offset-1"
-			style="border: 1px solid #ccc; padding: 12px 0 16px 24px;">
-			<div class="tabs-left">
-				<ul class="nav nav-tabs tabs-left" id="demo-pill-nav"
-					style="width: 134px;">
-					<li class="active"><a href="#tab-r1" data-toggle="tab">Train
-					</a></li>
-					<li><a href="#tab-r2" data-toggle="tab">Consult</a></li>
-					<li><a href="#tab-r3" data-toggle="tab">Implement</a></li>
-				</ul>
-				<div class="tab-content" style="margin-left: 177px;">
-					<div class="tab-pane active" id="tab-r1"
-						style="padding: 0 30px 0 0;">
-						<p>Enablement through Training is the key to success of any
-							program. Privacy being a little known topic to most individuals
-							and Organizations, it becomes utmost important to first Train the
-							Staff and then proceed with the next steps towards implementation
-							of Privacy.</p>
 
-						<p>Team Vedhacon with its vast experience in the field of
-							Privacy Implementation & Training can assist Organizations to
-							upskill their staff to understand privacy, key regulations and
-							challenges in complying to them. We can conduct in-house and
-							external trainings which are generic or customized to the
-							specific needs of an Organization.</p>
+
+
+
+
+
+
+
+	<div class="row" style="padding-top: 25px;">
+		<div class="col-sm-10 col-md-offset-1">
+			<ul id="myTab4" class="nav nav-tabs bordered">
+				<li class="active"><a href="#l4" data-toggle="tab">Train </a></li>
+				<li class=" "><a href="#l5" data-toggle="tab">Consult</a></li>
+				<li class=" "><a href="#l6" data-toggle="tab">Implement</a></li>
+			</ul>
+
+			<div id="myTabContent4" class="tab-content padding-10">
+				<div class="tab-pane fade in active" id="l4">
+
+					<p>Enablement through Training is the key to success of any
+						program. Privacy being a little known topic to most individuals
+						and Organizations, it becomes utmost important to first Train the
+						Staff and then proceed with the next steps towards implementation
+						of Privacy.</p>
+					<p>Team Vedhacon with its vast experience in the field of
+						Privacy Implementation & Training can assist Organizations to
+						upskill their staff to understand privacy, key regulations and
+						challenges in complying to them. We can conduct in-house and
+						external trainings which are generic or customized to the specific
+						needs of an Organization.</p>
+
+				</div>
+
+
+				<div class="tab-pane fade" id="l5">
+					<div class="row">
+						<div class="col-sm-12" style="text-align: left;">
+							<p>Understanding the business and performing gap analysis
+								against various privacy requirements is the expertise that Team
+								Vedhacon brings to the table. Our Consultants can help
+								Organizations perform independent and holistic gap analysis. As
+								part of consulting, our SMEs also help in designing an
+								implementation program.</p>
+							<p>Objective of our consulting service is to develop your
+								privacy program to the point where:</p>
+							<ul>
+								<li>It can be managed internally,</li>
+								<li>It accounts for compliance</li>
+								<li>It is integrated into the culture</li>
+								<li>It is measured and strategic</li>
+								<li>Everyone knows their role</li>
+								<li>Leadership has buy-in</li>
+								<li>It is not viewed as a necessary evil</li>
+							</ul>
+						</div>
 					</div>
-					<div class="tab-pane" id="tab-r2" style="padding: 0 30px 0 0;">
-						<p>Understanding the business and performing gap analysis
-							against various privacy requirements is the expertise that Team
-							Vedhacon brings to the table. Our Consultants can help
-							Organizations perform independent and holistic gap analysis. As
-							part of consulting, our SMEs also help in designing an
-							implementation program.</p>
-						<p>Objective of our consulting service is to develop your
-							privacy program to the point where:</p>
-						<ul>
-							<li>It can be managed internally,</li>
-							<li>It accounts for compliance</li>
-							<li>It is integrated into the culture</li>
-							<li>It is measured and strategic</li>
-							<li>Everyone knows their role</li>
-							<li>Leadership has buy-in</li>
-							<li>It is not viewed as a necessary evil</li>
-						</ul>
-					</div>
-					<div class="tab-pane" id="tab-r3" style="padding: 0 30px 0 0;">
-						<p>Implementation is the most difficult part in a privacy
-							program as it relates to culture. It starts right from training,
-							followed by gap analysis and then implementation customized to
-							the needs of an Organization. Our team with vast experience in
-							the implementation of Privacy across different business verticals
-							and geographies can assist Organizations in planned and effective
-							implementation.</p>
-						<p>We at Vedhacon believe in ""One suit doesn't fit all"" and
-							thus designs customized implementation plan for each
-							organization. The team hand holds and provides
-							oversight/governance during implementation to make it glitch
-							free, timely and effective. Our flagship Assessment tool, ARM,
-							helps in performing gap analysis/assessments, reporting and
-							tracking centrally.</p>
+				</div>
+
+
+
+
+
+
+
+				<div class="tab-pane fade" id="l6">
+					<div class="row">
+						<div class="col-sm-12" style="text-align: left;">
+							<p>Implementation is the most difficult part in a privacy
+								program as it relates to culture. It starts right from training,
+								followed by gap analysis and then implementation customized to
+								the needs of an Organization. Our team with vast experience in
+								the implementation of Privacy across different business
+								verticals and geographies can assist Organizations in planned
+								and effective implementation.</p>
+							<p>We at Vedhacon believe in ""One suit doesn't fit all"" and
+								thus designs customized implementation plan for each
+								organization. The team hand holds and provides
+								oversight/governance during implementation to make it glitch
+								free, timely and effective. Our flagship Assessment tool, ARM,
+								helps in performing gap analysis/assessments, reporting and
+								tracking centrally.</p>
+						</div>
 					</div>
 				</div>
 			</div>
+
 		</div>
 	</div>
-</div>

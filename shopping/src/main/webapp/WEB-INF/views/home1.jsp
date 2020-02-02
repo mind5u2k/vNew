@@ -138,7 +138,7 @@
 							Must Have Tool. Refer our ARM Tool Section to understand more
 							about it and request for Free Trial. <br> <br>
 						</p>
-						<a class="btn btn-primary" href="javascript:void(0);"> Read
+						<a class="btn btn-primary" href="${contextRoot}/armTool"> Read
 							more </a>
 					</div>
 				</div>
@@ -164,7 +164,7 @@
 							knowledge and reduce external dependency. Refer our Training
 							Section for details. <br> <br>
 						</p>
-						<a class="btn btn-primary" href="javascript:void(0);"> Read
+						<a class="btn btn-primary" href="${contextRoot}/training"> Read
 							more </a>
 					</div>
 				</div>
@@ -194,7 +194,7 @@
 							against key requirements and support Implementation of controls.
 							<br> <br>
 						</p>
-						<a class="btn btn-primary" href="javascript:void(0);"> Read
+						<a class="btn btn-primary" href="${contextRoot}/privacy"> Read
 							more </a>
 					</div>
 				</div>
