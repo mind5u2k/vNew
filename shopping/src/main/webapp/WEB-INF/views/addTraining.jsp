@@ -13,7 +13,12 @@ em {
 			<div class="padding-10" style="background: #fff;">
 				<div class="row" style="width: 80%; margin: auto;">
 					<div class="col-md-12" style="">
-						<h3 style="text-align: center; margin: 2px;">Add New Training</h3>
+						<h3 style="text-align: center; margin: 2px;">
+							<c:if test="${status == 'new'}"> Add New Training
+						</c:if>
+							<c:if test="${status == 'edit'}"> Edit Training
+						</c:if>
+						</h3>
 						<p class="sint">
 							<span> </span>
 						</p>
@@ -51,7 +56,7 @@ em {
 									<sf:form class="smart-form" modelAttribute="product"
 										action="${contextRoot}/manage/product" method="POST"
 										enctype="multipart/form-data">
-										<header>New Training</header>
+										<header>Training Details</header>
 
 										<fieldset>
 

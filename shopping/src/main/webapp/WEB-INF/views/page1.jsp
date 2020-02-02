@@ -185,6 +185,9 @@ body {
 		<c:if test="${userClickShowCart == true}">
 			<%@include file="cart.jsp"%>
 		</c:if>
+		<%-- <c:if test="${userEditProduct == true}">
+			<%@include file="editProduct.jsp"%>
+		</c:if> --%>
 	</div>
 	<%@include file="./shared/footer1.jsp"%>
 

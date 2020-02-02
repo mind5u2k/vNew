@@ -19,7 +19,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 public class HibernateConfig {
 
 	// Change the below based on the DBMS you choose
-	private final static String DATABASE_URL = "jdbc:mysql://localhost:3306/vedhacon?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull";
+	private final static String DATABASE_URL = "jdbc:mysql://localhost:3306/abcd?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull";
 	private final static String DATABASE_DRIVER = "com.mysql.jdbc.Driver";
 	private final static String DATABASE_DIALECT = "org.hibernate.dialect.MySQL5Dialect";
 	private final static String DATABASE_USERNAME = "root";

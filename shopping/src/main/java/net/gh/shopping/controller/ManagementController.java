@@ -48,6 +48,30 @@ public class ManagementController {
 		Product nProduct = new Product();
 		nProduct.setSupplierId(1);
 		nProduct.setActive(true);
+		mv.addObject("status", "new");
+		mv.addObject("product", nProduct);
+
+		if (success != null) {
+			if (success.equals("product")) {
+				mv.addObject("message", "Product submitted successfully!");
+			} else if (success.equals("category")) {
+				mv.addObject("message", "Category submitted successfully!");
+			} else {
+				mv.addObject("message", "Fileds!");
+			}
+		}
+		return mv;
+	}
+
+	@RequestMapping("/editProduct")
+	public ModelAndView EditProduct(@RequestParam(name = "success", required = false) String success) {
+		ModelAndView mv = new ModelAndView("page1");
+		mv.addObject("title", "Training Management");
+		mv.addObject("userClickAddTraining", true);
+
+		Product nProduct = new Product();
+		nProduct.setSupplierId(1);
+		nProduct.setActive(true);
 
 		mv.addObject("product", nProduct);
 
@@ -88,14 +112,15 @@ public class ManagementController {
 		return mv;
 	}
 
-	@RequestMapping("/{id}/product")
+	@RequestMapping("/{id}/training")
 	public ModelAndView manageProductEdit(@PathVariable int id) {
 
 		ModelAndView mv = new ModelAndView("page1");
-		mv.addObject("title", "Product Management");
-		mv.addObject("userClickManageProduct", true);
+		mv.addObject("title", "Training Management");
+		mv.addObject("userClickAddTraining", true);
 
 		// Product nProduct = new Product();
+		mv.addObject("status", "edit");
 		mv.addObject("product", productDAO.get(id));
 		mv.addObject("products", productDAO.list());
 

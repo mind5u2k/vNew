@@ -22,7 +22,7 @@
 			<div class="row">
 				<div class="col-md-2 col-md-offset-10" style="padding-bottom: 15px;">
 					<a href="${contextRoot}/manage/training"
-						class="btn btn-primary btn-block">Add New Training </a>
+						class="btn btn-primary btn-block"> Add New Training </a>
 				</div>
 				<c:forEach items="${products}" var="pro">
 					<div class="col-xs-12 col-sm-4 ">
@@ -37,7 +37,7 @@
 							<div class="panel-body no-padding text-align-center">
 								<div class="the-price" style="padding: 12px 0;">
 									<h3 style="margin: 0; font-size: 14px;">
-										Price - <i class="fa fa-rupee text-success"></i>
+										Price- <i class="fa fa-rupee text-success"></i>
 										${pro.unitPrice}
 									</h3>
 								</div>
@@ -59,8 +59,11 @@
 											class="btn btn-default btn-block">Active </a>
 									</div>
 									<div class="col-xs-12 col-sm-4">
-										<a href="javascript:void(0);"
+
+										<a href="${contextRoot}/manage/${pro.id}/training"
 											class="btn btn-default btn-block">Edit </a>
+
+
 									</div>
 									<div class="col-xs-12 col-sm-4">
 										<a href="javascript:void(0);"
